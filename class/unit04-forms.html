@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Unit 4 Forms
+        </title>
+    </head>
+    <body>
+        <h1>Apply for College</h1>
+        <form action="mailto:whcahill@syr.edu" method="POST">
+            <label for="firstname"> Type your first name:</label>
+            <input type="text" name="firstname" id="firstname"> <br>
+            
+            <label for="comments">Comments?</label>
+            <textarea name="comments" id="comments" rows="10" cols="100">
+                Type your comments here.
+            </textarea><br>
+
+            <p>Please choose your year.</p>
+            <input type="radio" name="schoolyear" id="schoolyearfr" value="freshman">
+            <label for="schoolyearfr">freshman</label>
+            <input type="radio" name="schoolyear" id="schoolyearso" value="sophomore">
+            <label for="schoolyearso">sophomore</label>
+            <input type="radio" name="schoolyear" id="schoolyearjr" value="junior">
+            <label for="schoolyearjr">junior</label>
+            <input type="radio" name="schoolyear" id="schoolyearsr" value="senior">
+            <label for="schoolyearsr">senior</label><br>
+
+            <input type="checkbox" name="veteran" id="veteran" value="yes">
+            <label for="veteran">Veteran?</label><br>
+
+            <label for="start">When are you starting?</label>
+            <select name="start" id="start">
+                <option value="F21">Fall 2021</option>
+                <option value="S22">Spring 2022</option>
+            </select><br>
+            
+            <input type="submit" value="Send Application">
+        </form>
+    </body>
+</html>
