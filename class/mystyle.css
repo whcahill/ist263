@@ -1,0 +1,33 @@
+h1 {
+    color: #ff0000;
+}
+a:link {
+    color:#00ff00;
+}
+a:visited {
+    color:#0000ff;
+}
+a:hover {
+    color:#0090ff;
+    background-color: #ff0090; 
+}
+.lookdifferent:hover {
+    color: #999999;
+}
+body {
+    background-image: url(/images/hinds_hall.jpg);
+    background-size: 100%;
+    background: #999900;
+}
+p {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid #aaaaaa;
+    width: 300px;
+}
+.mylink {
+    border: 1px solid #000000;
+    padding: 20px;
+    margin: 20px;
+}
