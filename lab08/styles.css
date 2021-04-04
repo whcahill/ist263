@@ -1,0 +1,30 @@
+text {
+    color: #FEFAF7;
+}
+h1 {
+    color: #d0f6e9;
+}
+a:link {
+    color: #F5AB5C;
+}
+body {
+    background-color: #84A09B;
+}
+nav {
+    background-color: #d0f6e9;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+nav a{
+    color: #F5AB5C;
+}
+nav a:hover {
+    background-color: #555A77;
+}
+.copy {float: left;}
+.quote {float: right;}
+.card{background-color: #d0f6ef; margin: 15px; padding: 15px; border-radius: 1em;}
+.active{display: flex; margin: 15px; padding: 15px; background-color: #d0f6ef; border-radius: 1em;}
+.map{flex: 1; order: 2;}
+.form{padding: 15px; flex: 1; order: 1;}
+.plain{margin-right: 20px; float: left; float: bottom;}

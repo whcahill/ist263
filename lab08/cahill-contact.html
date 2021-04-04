@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Lab06 Contact Page
+        </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <nav>
+        <a href = "index.html"> Home </a>
+        <a href = "skills.html"> Skills </a>
+        <a href = "cahill-contact.html"> Contact </a>
+    </nav>
+<h1>
+    Contact
+</h1>
+
+<div class=card>
+    <div class = plain>
+            <h2><strong>Address</strong></h2>
+        <p> 
+            William Cahill <br>
+            709 Livingston Avenue <br>
+            Syracuse, NY 13210
+        </p>
+    </div>
+    <div class = links>
+        <p>
+            <a href="mailto:whcahill@syr.edu">William Cahill Email</a>
+        </p>
+        <p>
+            <a href="https://www.linkedin.com/in/will-cahill/"> My Linkedin Profile <img src="../images/logo_sized.png" alt="Linkedin Logo"></a>
+        </p>
+    </div>
+</div>
+
+<!--Below is the google stuff-->
+<div class = active>
+    <article class = map>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11664.57466084274!2d-76.13951926177059!3d43.038408669930675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f37485518c61%3A0x5513fd81d94354db!2s709%20Livingston%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1614266283298!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </article>
+    <article class = form>
+        <form action="mailto:whcahill@syr.edu" method="POST">
+            <label for= "name">Type your first and last name</label>
+            <input type="text" name="name" id="name"> <br>
+
+            <p> How hire-able do you think I am? </p>
+            <input type = "radio" name="fireable" id="fireable">
+            <label for="fireable"> Fireable</label> <br>
+            <input type = "radio" name="resume" id="resume">
+            <label for="resume"> I'll read your resume</label> <br>
+            <input type = "radio" name="coverletter" id="coverletter">
+            <label for="coverletter"> I'll read your cover letter </label> <br>
+            <input type = "radio" name="interview" id="interview"> 
+            <label for="interview"> I'll give you an interview</label> <br>
+            <input type = "radio" name="hireable" id="hireable">
+            <label for="hireable"> Hireable</label> <br>
+
+            <label for="comments">Why did you choose this option?</label><br>
+        <textarea name="comments" id="comments" rows="10" cols="40">
+            Explain here
+        </textarea><br>
+
+        <input type="submit" value="Submit">
+        </form>
+    </article>
+</div>
+</body>
+</html>
