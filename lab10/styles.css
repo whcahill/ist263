@@ -31,7 +31,7 @@ nav {
     margin-bottom: 30px;
 }
 nav a{
-    color: #ff6666;
+    color: black;
 }
 nav a:hover {
     background-color: #555A77;
@@ -46,7 +46,7 @@ nav a:hover {
 .plain{margin-right: 20px; float: left; float: bottom;}
 .banner{max-width: 100%;}
 table, th, td {border: 1px solid black;}
-caption { color: #F5AB5C; font-size: 30px;}
+caption { color: #F5AB5C; font-size: 50px;}
 .skip {
     background: white;
     height: 30px;
