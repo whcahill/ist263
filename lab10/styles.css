@@ -9,7 +9,7 @@ h2 {
     font-size: 30px;
 }
 a:link {
-    color: #F5AB5C;
+    color: #ff6666;
 }
 body {
     background-color: #374845;
@@ -31,7 +31,7 @@ nav {
     margin-bottom: 30px;
 }
 nav a{
-    color: #F5AB5C;
+    color: #ff6666;
 }
 nav a:hover {
     background-color: #555A77;
@@ -46,9 +46,9 @@ nav a:hover {
 .plain{margin-right: 20px; float: left; float: bottom;}
 .banner{max-width: 100%;}
 table, th, td {border: 1px solid black;}
-caption { color: #F5AB5C;}
+caption { color: #F5AB5C; font-size: 30px;}
 .skip {
-    background: #e77e23;
+    background: white;
     height: 30px;
     left: 50%;
     padding: 8px;
