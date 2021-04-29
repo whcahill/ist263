@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript Part 2</title>
+        <style>
+            #hamicon {display: none;}
+            nav a:hover {background-color: lightseagreen;}
+            @media only screen and (max-width: 600px) {
+                span {display: none;}
+                #hamicon {display: block;}
+                nav a {
+                    display: block;
+                    padding: 10px 0px;
+                    }
+                #links { display:none;}
+            }
+        </style>
+        <script>
+            function changenav() {
+                if(document.getElementById("links").style.getPropertyValue("display") == 'block') {
+                    document.getElementById("links").style.display = "none";
+                }
+                else {
+                    document.getElementById("links").style.display = "block";
+                }
+            }
+            
+        </script>
+    </head>
+    <body>
+        <!--
+            X - need burger image -- HTML
+            X - only when screen small -- CSS
+            X - hide stacked nav when screen small -- CSS
+            X - turn on stacked nav when burger clicked -- JAVASCRIPT
+            hide nav when burger clicked again -- JAVASCRIPT
+        -->
+        <nav>
+            <img src="https://laferger.github.io/ist263/images/hamburger.png" id="hamicon" width="35" alt="hamburger icon" onclick="changenav();">
+            <div id="links">
+                <a href="index.html">Home</a> <span>|</span> 
+                <a href="skills.html">Skills</a> <span>|</span> 
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+
+        
+       
+    </body>
+</html>
