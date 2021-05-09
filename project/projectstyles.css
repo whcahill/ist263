@@ -93,3 +93,16 @@ h2{
 @media only screen and (min-width: 600px){
     .link {size: 20%; display:inline; margin: 0px;}
 }
+.skip {
+    background: white;
+    height: 30px;
+    left: 50%;
+    padding: 8px;
+    position: absolute;
+    transform: translateY(-200%);
+    transition: transform 0.2s;
+  }
+  
+  .skip:focus {
+    transform: translateY(0%);
+  }
