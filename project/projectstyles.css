@@ -12,7 +12,7 @@ a:link {
     color: #fb9263;
 }
 nav{
-    color: #fb9263;
+    color: #eb591f;
     background-color: #77c1da;
     padding: 10px;
     margin: auto;
@@ -23,7 +23,7 @@ nav a{
     padding: 10px;
     text-align: center;
     font-size: large;
-    color: #e96732;
+    color: #eb591f;
     
 }
 h1{
@@ -40,7 +40,7 @@ h2{
 }
 .welcome{
     text-align: center;
-    background-color: #e96732;
+    background-color: #eb591f;
     border-radius: 25px;
     padding-bottom: 10px; padding-top: 1px; margin-top: 10px;
 }
@@ -50,7 +50,7 @@ h2{
     border-radius: 10px;
 }
 .intro{
-    background-color: #e96732;
+    background-color: #eb591f;
     padding: 10px; margin:10px;
     text-align: center;
     border-radius: 25px;
@@ -105,7 +105,7 @@ iframe{
     color: #083554;
     max-width: 560px;
     background-color: white;
-    border: 3px solid #e96732;
+    border: 3px solid #eb591f;
     border-radius: 25px;
     padding: 10px;
 }
