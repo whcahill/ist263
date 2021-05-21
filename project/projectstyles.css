@@ -9,11 +9,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 a:link {
-    color: #eb591f;
+    color: #0fb90f;
 }
 nav{
     color: #eb591f;
-    background-color: #77c1da;
+    background-color: white;
+    border:3px solid #eb591f;
     padding: 10px;
     margin: auto;
     width: 80%;
@@ -27,7 +28,7 @@ nav a{
     
 }
 h1{
-    color:white;
+    color:#41e441;
     font-family: 'Farro', sans-serif;
 }
 #logo{
@@ -41,6 +42,7 @@ h2{
 .welcome{
     text-align: center;
     background-color: #eb591f;
+    border:3px solid white;
     border-radius: 25px;
     padding-bottom: 10px; padding-top: 1px; margin-top: 10px;
 }
@@ -53,6 +55,7 @@ h2{
     background-color: #eb591f;
     padding: 10px; margin:10px;
     text-align: center;
+    border:3px solid white;
     border-radius: 25px;
 }
 .dept{
