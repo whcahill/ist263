@@ -30,6 +30,11 @@ h1{
     color:white;
     font-family: 'Farro', sans-serif;
 }
+#logo{
+    max-width: 200px;
+    float: right;
+    margin-bottom: 20px;
+}
 h2{
     font-family: 'Farro', sans-serif;
 }
@@ -54,9 +59,8 @@ h2{
     background-color: #77c1da;
     border-radius: 25px;
     padding:10px; margin:10px;
-}
-.row1, .row2{
     display: flex;
+    flex-wrap: wrap;
 }
 .writers, .cc, .socials, .crew, .graphics{
     background-color: white;
@@ -64,27 +68,46 @@ h2{
     border:3px solid #e96732;
     padding: 10px; margin: 10px;
     color: #083554;
-    flex:1;
     text-align: center;
+    flex:1;
+    min-width: 200px;
 }
 .bios{
     background-color: #77c1da;
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 25px;
-    padding:10px; margin:10px;
-}
-.firstbios, .secondbios, .thirdbios{
-    display:flex;
+    padding: 20px;
+    gap: 10px;
 }
 .jaelin, .stett, .jeanette, .danny, .will, .lucas, .cameron{
-    flex:1;
     background-color: #246d94;
     border-radius: 10px;
-    padding: 10px; margin: 5px;
+    padding: 10px; margin:10px auto;
     text-align: center;
+    flex:1;
+    min-width: 250px;
+    max-width: 400px;
 }
 #biophotos{
     width:100%;
     border: 2px solid white;
+}
+.videos{
+    margin: 0 auto;
+} 
+iframe{
+    border:3px solid #77c1da;
+    border-radius: 10px;
+    margin: 10px;
+}
+.desc {
+    color: #083554;
+    max-width: 560px;
+    background-color: white;
+    border: 3px solid #e96732;
+    border-radius: 25px;
+    padding: 10px;
 }
 @media only screen and (max-width: 600px ) {
     .link {size: 100%; display:block; margin: 10px;}
@@ -101,8 +124,8 @@ h2{
     position: absolute;
     transform: translateY(-200%);
     transition: transform 0.2s;
-  }
+}
   
-  .skip:focus {
+.skip:focus {
     transform: translateY(0%);
-  }
+}
