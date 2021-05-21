@@ -9,12 +9,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 a:link {
-    color: #0fb90f;
+    color: #26a726;
 }
 nav{
-    color: #eb591f;
+    color: #ff510d;
     background-color: white;
-    border:3px solid #eb591f;
+    border:3px solid #ff510d;
     padding: 10px;
     margin: auto;
     width: 80%;
@@ -24,11 +24,11 @@ nav a{
     padding: 10px;
     text-align: center;
     font-size: large;
-    color: #eb591f;
+    color: #ff510d;
     
 }
 h1{
-    color:#41e441;
+    color:#68fd68;
     font-family: 'Farro', sans-serif;
 }
 #logo{
@@ -41,7 +41,7 @@ h2{
 }
 .welcome{
     text-align: center;
-    background-color: #eb591f;
+    background-color: #ff510d;
     border:3px solid white;
     border-radius: 25px;
     padding-bottom: 10px; padding-top: 1px; margin-top: 10px;
@@ -52,7 +52,7 @@ h2{
     border-radius: 10px;
 }
 .intro{
-    background-color: #eb591f;
+    background-color: #ff510d;
     padding: 10px; margin:10px;
     text-align: center;
     border:3px solid white;
@@ -68,7 +68,7 @@ h2{
 .writers, .cc, .socials, .crew, .graphics{
     background-color: white;
     border-radius: 30px;
-    border:3px solid #e96732;
+    border:3px solid #ff510d;
     padding: 10px; margin: 10px;
     color: #083554;
     text-align: center;
@@ -108,7 +108,7 @@ iframe{
     color: #083554;
     max-width: 560px;
     background-color: white;
-    border: 3px solid #eb591f;
+    border: 3px solid #ff510d;
     border-radius: 25px;
     padding: 10px;
 }
